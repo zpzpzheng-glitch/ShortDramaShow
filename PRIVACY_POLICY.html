@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="短剧秀（Short Drama Show）隐私政策 / Privacy Policy">
+  <meta name="color-scheme" content="light">
+  <title>短剧秀（Short Drama Show）隐私政策</title>
+  <style>
+    :root { color-scheme: light; --ink: #241b36; --muted: #655c72; --purple: #7138e8; --line: #ece6f5; --wash: #f8f5ff; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f6f4f9; color: var(--ink); font: 16px/1.78 system-ui, -apple-system, "Segoe UI", "Noto Sans SC", "Microsoft YaHei", sans-serif; }
+    header { padding: 52px 20px 40px; color: white; background: linear-gradient(125deg, #38136b 0%, #6932c9 52%, #a257dc 100%); }
+    .hero, main { width: min(900px, calc(100% - 32px)); margin: 0 auto; }
+    .eyebrow { margin: 0 0 8px; opacity: .8; font-size: 13px; letter-spacing: .14em; text-transform: uppercase; }
+    h1 { margin: 0; font-size: clamp(28px, 5vw, 40px); line-height: 1.25; }
+    .date { margin: 12px 0 0; opacity: .86; font-size: 14px; }
+    main { margin: 28px auto 48px; padding: clamp(22px, 5vw, 48px); border: 1px solid #eee9f4; border-radius: 20px; background: #fff; box-shadow: 0 12px 36px #2d17420c; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px; padding: 15px; border-radius: 12px; background: var(--wash); }
+    nav a { color: var(--purple); font-weight: 650; text-decoration: none; }
+    nav a:hover, a:hover { text-decoration: underline; }
+    .notice { margin: 0 0 24px; padding: 15px 18px; border-left: 4px solid #9c63ed; border-radius: 8px; background: var(--wash); color: #443557; }
+    h2 { margin: 34px 0 10px; padding-bottom: 8px; border-bottom: 1px solid var(--line); color: #3b235b; font-size: 22px; line-height: 1.4; }
+    h3 { margin: 20px 0 6px; color: #493360; font-size: 17px; }
+    p { margin: 10px 0; }
+    ul { padding-left: 1.35em; }
+    li { margin: 7px 0; }
+    a { color: #6030c3; overflow-wrap: anywhere; }
+    .divider { margin: 46px 0 30px; border: 0; border-top: 2px solid var(--line); }
+    footer { padding: 0 16px 30px; color: var(--muted); text-align: center; font-size: 13px; }
+    @media (max-width: 520px) { header { padding-top: 38px; } main { width: min(100% - 20px, 900px); margin-top: 14px; border-radius: 14px; } nav { gap: 7px 12px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <p class="eyebrow">Short Drama Show</p>
+      <h1>隐私政策</h1>
+      <p class="date">生效日期：2026 年 10 月 1 日</p>
+    </div>
+  </header>
+  <main>
+    <nav aria-label="Language navigation"><a href="#zh">简体中文</a><a href="#en">English</a></nav>
+    <section id="zh" lang="zh-CN">
+      <p>短剧秀（以下简称“本应用”）由短剧秀开发团队提供。本政策说明本应用及其集成服务在您使用应用时如何处理信息。请在使用前阅读。运营方名称如与 Google Play 开发者账号所列法定主体不同，请以实际主体信息更新本政策后再发布。</p>
+      <h2>1. 本应用本身处理的信息</h2>
+      <p>本应用不要求注册账号，也不直接收集姓名、电话号码、通讯录、精确位置或支付信息。应用没有接入独立的第三方分析 SDK。</p>
+      <h3>本地保存的信息</h3>
+      <ul>
+        <li><strong>播放历史：</strong>剧目编号、标题、图片地址、播放集数/集标题、播放进度和时长、最近播放时间，用于历史续播。</li>
+        <li><strong>收藏：</strong>剧目编号、标题、图片地址及收藏时间。</li>
+        <li><strong>偏好与应用状态：</strong>例如播放设置，以及本地保存的评分提示状态。</li>
+        <li><strong>诊断信息：</strong>应用异常时，崩溃堆栈可能写入应用私有目录；这些崩溃文件不会由本应用自动上传。</li>
+        <li><strong>反馈内容：</strong>您主动输入反馈并选择邮件应用时，内容会交给您选择的邮件应用，由您决定是否发送。若设备没有可用的邮件应用，反馈文本会保存在应用私有目录中，不会自动发送。</li>
+      </ul>
+      <p>上述应用私有数据保存在设备上。您可在应用内清除播放历史或收藏；卸载应用或清除应用存储数据会删除应用私有数据。视频缓存保存在系统缓存目录中，采用最多约 512 MB 的 LRU 缓存策略，应用或 Android 系统可能随时清除。</p>
+      <h3>内容服务请求</h3>
+      <p>浏览、搜索、翻页、读取详情和播放时，应用会向内容服务请求数据。请求可能包含剧目编号、页码、搜索关键词，以及播放所需的媒体地址/请求参数。应用的内容 API 地址为 <code>https://www.2005207.com/</code>；视频地址可能由该服务返回，并由其自身或相关媒体/CDN 服务提供。连接服务时，对方通常也会收到 IP 地址、请求时间、设备/网络及标准连接元数据。搜索词和剧目请求会发送给相应服务，但本应用不会把搜索词作为搜索历史保存在本地。</p>
+      <p>内容服务及媒体/CDN 服务由第三方运营，其日志、保留期限、后续使用和隐私做法受其自身政策约束，并非由本应用控制。虽然 API 使用 HTTPS，媒体链接可能重定向至其他域名或使用不同传输协议；传输保护情况取决于实际目标服务。</p>
+
+      <h2>2. Google 广告与同意管理</h2>
+      <p>本应用集成 Google Mobile Ads（AdMob）和 Google 用户消息平台（UMP），用于横幅及插屏广告，并在适用地区展示/管理隐私与广告同意选项。UMP 会获取同意状态；只有在 Google 的同意状态允许请求广告时，本应用才请求广告。广告是否个性化取决于您所在地区、适用规则及您的选择；不能请求个性化广告时，仍可能显示非个性化或受限广告。</p>
+      <p>Google Mobile Ads SDK 可能处理或共享 IP 地址、广告标识符及其他设备标识符、应用交互（例如应用启动、点击或视频观看）和诊断/性能数据，用于广告投放、衡量、反欺诈和 SDK 运行。具体处理可能因设备、地区、同意状态和广告请求而异。测试版本使用 Google 提供的测试广告单元；正式发布版本会使用配置的正式广告单元。</p>
+      <p>如应用内显示“隐私选项”，您可以从该入口重新查看或更改可用的隐私选择。您也可在 Android 系统设置中重置或限制广告标识符。更多信息请查看 <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google 隐私政策</a>、<a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener noreferrer">Google Mobile Ads 数据披露</a>及 <a href="https://developers.google.com/admob/android/privacy" rel="noopener noreferrer">UMP 文档</a>。</p>
+
+      <h2>3. Google Play 服务</h2>
+      <p>本应用可使用 Google Play 的应用内更新与评分/评价流程。相关请求由 Google Play 服务处理，Google 可能按其政策处理应用版本、Play 分发状态及运行这些流程所需的技术信息。请参阅 <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google 隐私政策</a>。</p>
+
+      <h2>4. 数据保留、安全与删除</h2>
+      <p>本应用没有用户账号或自有云端用户资料库。历史、收藏、偏好、反馈备用文件和崩溃文件按前述方式保存在设备，直到您清除相关数据、清除应用存储或卸载应用；缓存可由应用或系统提前清理。广告、Google Play、内容及媒体服务各自的数据保留规则由相应服务提供方决定。</p>
+      <p>应用 API 使用 HTTPS；Google Mobile Ads SDK 的数据传输和其他服务连接依各服务实际端点与其安全措施而定。互联网传输和电子存储不存在绝对安全保证。请勿在反馈中提交不必要的敏感个人信息。</p>
+
+      <h2>5. 儿童隐私</h2>
+      <p>本应用并非面向儿童设计，也不面向 13 岁以下儿童提供服务。应用不要求儿童提供个人资料。如您认为儿童向我们提交了个人信息，请通过下方邮箱联系。不同国家或地区对儿童及同意年龄的定义可能不同。</p>
+
+      <h2>6. 您的选择与权利</h2>
+      <ul>
+        <li>在应用“我的”页面清除播放历史或收藏；也可在 Android 设置中清除应用存储数据或卸载应用。</li>
+        <li>如应用提供“隐私选项”，使用该入口管理 UMP 支持的广告隐私选择；亦可在 Android 设置管理广告标识符。</li>
+        <li>对发送至 Google Play、内容服务或媒体/CDN 服务的信息，您可能需要直接依据相应服务的隐私政策向其提出请求。</li>
+        <li>如有隐私问题或请求，请联系下方邮箱。由于本应用不建立用户账号，通常无法将第三方服务器记录与某位用户对应或代为删除。</li>
+      </ul>
+
+      <h2>7. 政策变更</h2>
+      <p>我们可能因应用功能、SDK 或法律要求更新本政策。更新后的版本会在本页面公布并标注生效日期。重大变更时，我们会在适当情况下通过应用或页面提示。</p>
+
+      <h2>8. 联系我们</h2>
+      <p>隐私联系邮箱：<a href="mailto:yongzheng784@gmail.com">yongzheng784@gmail.com</a></p>
+    </section>
+
+    <hr class="divider">
+
+    <section id="en" lang="en">
+      <h1>Short Drama Show Privacy Policy</h1>
+      <p><strong>Effective date: October 1, 2026</strong></p>
+      <p>Short Drama Show (the “App”) is provided by the Short Drama Show development team. This policy explains how the App and its integrated services handle information when you use the App. Please read it before use. If the operator name differs from the legal entity listed in your Google Play developer account, update this policy to identify the actual entity before publication.</p>
+
+      <h2>1. Information handled by the App</h2>
+      <p>The App does not require an account and does not directly collect your name, phone number, contacts, precise location, or payment information. The App does not integrate a separate third-party analytics SDK.</p>
+      <h3>Stored on your device</h3>
+      <ul>
+        <li><strong>Viewing history:</strong> drama ID, title, artwork URL, episode number/title, playback position and duration, and last-played time, to support playback history and resumption.</li>
+        <li><strong>Favorites:</strong> drama ID, title, artwork URL, and the time added.</li>
+        <li><strong>Preferences and app state:</strong> for example, playback settings and locally stored review-prompt state.</li>
+        <li><strong>Diagnostics:</strong> if the App crashes, a stack trace may be written to the App’s private storage. The App does not automatically upload these crash files.</li>
+        <li><strong>Feedback:</strong> if you enter feedback and choose an email app, the content is handed to that app, and you decide whether to send it. If no email app is available, the feedback text is saved in the App’s private storage and is not sent automatically.</li>
+      </ul>
+      <p>This app-private data remains on your device. You can clear history or favorites in the App. Uninstalling the App or clearing its storage removes app-private data. Video data is cached in Android’s cache directory using an LRU cache of up to approximately 512 MB; the App or Android may clear it at any time.</p>
+      <h3>Content-service requests</h3>
+      <p>When you browse, search, paginate, open details, or play a video, the App requests data from content services. Requests may include a drama ID, page number, search term, and media URL/request parameters needed for playback. The content API is <code>https://www.2005207.com/</code>. Video URLs may be returned by that service and served by it or related media/CDN services. Those services will generally receive your IP address, request time, and standard device/network and connection metadata. Search terms and drama requests are sent to the relevant services, but the App does not store search terms as local search history.</p>
+      <p>Content and media/CDN services are operated by third parties. Their logs, retention periods, subsequent uses, and privacy practices are governed by their own policies and are not controlled by the App. Although the API uses HTTPS, media URLs may redirect to other domains or use different transport protocols; protection depends on the actual destination service.</p>
+
+      <h2>2. Google advertising and consent management</h2>
+      <p>The App integrates Google Mobile Ads (AdMob) and the Google User Messaging Platform (UMP) for banner and interstitial ads and, where applicable, privacy and advertising-consent choices. UMP obtains consent status. The App requests ads only when Google’s consent status allows it. Whether ads are personalized depends on your region, applicable rules, and choices. Non-personalized or limited ads may still be shown when personalized ads cannot be requested.</p>
+      <p>The Google Mobile Ads SDK may process or share IP addresses, advertising and other device identifiers, App interactions (such as app launches, taps, or video views), and diagnostic/performance data for ad delivery, measurement, fraud prevention, and SDK operation. Processing may vary by device, region, consent status, and ad request. Test builds use Google-provided test ad units; production builds use configured production ad units.</p>
+      <p>If a “Privacy options” entry is available in the App, you can use it to review or change available privacy choices. You can also reset or limit the advertising identifier in Android settings. See the <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a>, <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener noreferrer">Google Mobile Ads data disclosure</a>, and <a href="https://developers.google.com/admob/android/privacy" rel="noopener noreferrer">UMP documentation</a>.</p>
+
+      <h2>3. Google Play services</h2>
+      <p>The App may use Google Play in-app updates and the Play review flow. These requests are handled by Google Play services. Google may process app version, Play distribution status, and technical information needed for these flows under its own policies. See the <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a>.</p>
+
+      <h2>4. Retention, security, and deletion</h2>
+      <p>The App has no user account or first-party cloud user database. History, favorites, preferences, feedback fallback files, and crash files remain on the device as described above until you clear the relevant data, clear App storage, or uninstall the App; cache may be cleared earlier by the App or system. Retention by advertising, Google Play, content, and media services is determined by those service providers.</p>
+      <p>The App API uses HTTPS. Data transfers by Google Mobile Ads and connections to other services depend on their actual endpoints and security measures. No internet transmission or electronic storage can be guaranteed completely secure. Please do not include unnecessary sensitive personal information in feedback.</p>
+
+      <h2>5. Children’s privacy</h2>
+      <p>The App is not designed for children and is not directed to children under 13. The App does not ask children to provide personal information. If you believe a child has provided personal information to us, contact us at the email below. Definitions of a child and the age of consent may vary by jurisdiction.</p>
+
+      <h2>6. Your choices and rights</h2>
+      <ul>
+        <li>Clear viewing history or favorites from the App’s “Profile” page, or clear App storage/uninstall the App through Android settings.</li>
+        <li>Use “Privacy options” if available to manage choices supported by UMP, and manage the advertising identifier in Android settings.</li>
+        <li>For information sent to Google Play, content, or media/CDN services, you may need to submit requests directly under the relevant service’s privacy policy.</li>
+        <li>Contact us below with privacy questions or requests. Because the App does not create user accounts, we generally cannot identify or delete a particular user’s records held by third-party servers on their behalf.</li>
+      </ul>
+
+      <h2>7. Changes to this policy</h2>
+      <p>We may update this policy because of changes to App features, SDKs, or legal requirements. Updated versions will be posted on this page with a revised effective date. Where appropriate, we will notify you of material changes through the App or this page.</p>
+
+      <h2>8. Contact</h2>
+      <p>Privacy contact: <a href="mailto:yongzheng784@gmail.com">yongzheng784@gmail.com</a></p>
+    </section>
+  </main>
+  <footer>© Short Drama Show · Privacy Policy</footer>
+</body>
+</html>
